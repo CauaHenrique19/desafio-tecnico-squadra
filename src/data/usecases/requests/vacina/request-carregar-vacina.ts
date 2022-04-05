@@ -1,4 +1,4 @@
-import { CarregarVacinaRepository } from "src/data/protocols/request";
+import { CarregarVacinaRepository } from "src/data/protocols";
 import { CarregarVacina } from "src/domain/usecases";
 
 export class RequestCarregarVacina implements CarregarVacina {

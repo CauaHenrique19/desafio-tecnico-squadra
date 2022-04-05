@@ -13,6 +13,7 @@ export class IndicadoresController {
     @Get()
     async carregarIndicadores(@Response() response) {
         const result = await controllerAdapter(this.construirCarregarIndicadoresController.fabricar())
-        return response.json(result)
+        const statusCode = result.statusCode || 200
+        return response.status(statusCode).json(result)
     }
 }

@@ -1,4 +1,4 @@
-import { CarregarPaisRepository } from "src/data/protocols/request";
+import { CarregarPaisRepository } from "src/data/protocols";
 import { CarregarPais } from "src/domain/usecases";
 
 export class RequestCarregarPais implements CarregarPais {

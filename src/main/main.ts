@@ -11,7 +11,7 @@ async function bootstrap() {
 
   const options = new DocumentBuilder()
     .setTitle('Documentação Api')
-    .setDescription('Documentação da api de indicadores')
+    .setDescription('Documentação da api de indicadores de vacinação no Brasil')
     .setVersion('1.0.0')
     .build()
 
