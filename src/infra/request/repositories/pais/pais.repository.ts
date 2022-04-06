@@ -33,7 +33,7 @@ export class PaisRepository implements CarregarPaisRepository {
         return {
             pais: {
                 nome: paisApi.country,
-                expectativa_vida: paisApi.life_expectancy,
+                expectativa_vida: Number(paisApi.life_expectancy),
                 numero_populacao: paisApi.population,
                 total_casos_confirmados: paisApi.confirmed,
                 total_obitos: paisApi.deaths
